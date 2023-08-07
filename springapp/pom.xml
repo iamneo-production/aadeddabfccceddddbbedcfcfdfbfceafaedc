@@ -30,15 +30,15 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 	</dependencies>
+		<dependencies>
     		<!-- other dependencies -->
-		<dependencyManagement>
-    		<dependencies>
+    		<dependency>
        			 <groupId>junit</groupId>
        			 <artifactId>junit</artifactId>
        			 <version>4.13.2</version>
         		<scope>test</scope>
     		</dependency>
-		</dependencyManagement>
+		</dependencies>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
